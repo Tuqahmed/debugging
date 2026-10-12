@@ -28,15 +28,15 @@ function checkAnswer() {
     return;
   }
 
-  if (answer = questions[currentQuestion].answer) {
-    score =+ 1;
+  if (answer === questions[currentQuestion].answer) {
+    score + 1;
     messageDisplay.textContent = "Correct!";
   } else {
     messageDisplay.textContent = "Incorrect!";
   }
 
-  scoreDisplay.textcontent = score;
-  currentQuestion += 1;
+  scoreDisplay.textcontent === score;
+  currentQuestion =+ 1;
   answerInput.value = "";
 
   if (currentQuestion === questions.length) {
